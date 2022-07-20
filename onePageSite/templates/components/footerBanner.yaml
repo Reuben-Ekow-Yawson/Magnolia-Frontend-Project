@@ -1,0 +1,4 @@
+title: Footer-Banner
+templateScript: /onePageSite/templates/components/footerBanner.ftl
+dialog: onePageSite:components/footerBanner
+renderType: freemarker

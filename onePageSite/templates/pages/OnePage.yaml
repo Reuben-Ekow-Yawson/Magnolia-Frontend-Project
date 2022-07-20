@@ -1,0 +1,19 @@
+title: OnePage
+templateScript: /onePageSite/templates/pages/OnePage.ftl
+renderType: freemarker
+dialog: onePageSite:pages/OnePage
+visible: true
+areas:
+  main:
+    availableComponents:
+      banner:
+        id: onePageSite:components/banner
+  mainText:
+    availableComponents:
+      html:
+        id: mtk2:components/html
+  footerBan:
+    availableComponents:
+      footerBanner:
+        id: onePageSite:components/footerBanner
+      

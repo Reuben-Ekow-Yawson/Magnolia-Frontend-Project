@@ -1,0 +1,4 @@
+title: Banner
+templateScript: /onePageSite/templates/components/banner.ftl
+dialog: onePageSite:components/banner
+renderType: freemarker

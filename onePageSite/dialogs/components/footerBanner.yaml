@@ -1,0 +1,13 @@
+label: Banner properties
+form:
+  properties:
+    html:
+      label: Subtitle
+      $type: richTextField
+      i18n: true
+    image: 
+      label: Select image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser

@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+}
+.homeLink {
+  margin: 10px;
+}
+.navContainer{
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-link {
+  display: flex;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.nav-link > li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.nav-link > .homeLink > li > a {
+  border: 1px rgb(62, 196, 97) solid;
+}
+.nav-bar a{
+  color: #777;
+}
+
+.nav-bar a:hover{
+  color: #333;
+  background-color: transparent;
+  text-decoration: none;
+}
